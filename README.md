@@ -1,7 +1,7 @@
 # Password-Cracker
 A password cracker made to improve upon standard dictionary attacks by tracking occurrences of cracked passwords in a SQLite database in order to attempt by order of past occurrence.
 
-This password cracker performs dictionary attacks that take advantage of the fact that some passwords will be used more frequently than others, as it will attempt passwords in order of which it has seen most frequently in the past. Functionality of this could be extended further. Feel free to take it and do so if you wish.
+This password cracker performs dictionary attacks that take advantage of the fact that some passwords will be used more frequently than others, as it will attempt passwords in order of which it has seen most frequently in the past. It assumes access to a shadow file and currently is only set up to work on sha-256 hashed passwords (with salts). Functionality of this could be extended further. Feel free to take it and do so if you wish.
 
 Several password files from the internet have been provided in the pawddatabase/raw folder
 
